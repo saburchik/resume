@@ -1,15 +1,18 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from 'react'
+import ReactDOM from 'react-dom'
+import App from './App.jsx'
+import reportWebVitals from './reportWebVitals'
+import './testWebP'
+import Wrapper from './components/Wrapper'
 
 ReactDOM.render(
-  <React.StrictMode>
+  <Wrapper>
     <App />
-  </React.StrictMode>,
+  </Wrapper>
+  ,
   document.getElementById('root')
-);
+)
+
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
