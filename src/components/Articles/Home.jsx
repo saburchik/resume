@@ -1,12 +1,12 @@
-import React from 'react';
-import '../../App.css'
+import React from 'react'
 import { FormattedMessage } from 'react-intl'
+import '../../App.css'
 
 
 const Home = () => {
     return (
         <article className="tabs__content">
-            <h2 className="title lng-about">
+            <h2 className="title">
                 <FormattedMessage id="aboutMe" />
             </h2>
             <p className="suptitle">

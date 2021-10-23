@@ -1,13 +1,13 @@
+import React from 'react'
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import './App.css'
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import React from 'react';
 
 // Components
 import Profile from './components/Profile/Profile'
+import Header from './components/Header'
 import Home from './components/Articles/Home'
 import Resume from './components/Articles/Resume'
 import Portfolio from './components/Articles/Portfolio'
-import Header from './components/Header'
 
 const App = () => {
   return (
@@ -19,9 +19,9 @@ const App = () => {
             <Header />
             <main className="main">
               <Switch>
-                <Route exact path="/" render={() => <Home />} />
-                <Route exact path="/resume" render={() => <Resume />} />
-                <Route exact path="/portfolio" render={() => <Portfolio />} />
+                <Route exact path="/" component={Home} />
+                <Route exact path="/resume" component={Resume} />
+                <Route exact path="/portfolio" component={Portfolio} />
               </Switch>
             </main>
           </section>

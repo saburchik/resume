@@ -1,7 +1,6 @@
-import { Link } from 'react-router-dom'
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom'
 import { FormattedMessage } from 'react-intl'
-
 import '../App.css'
 
 
@@ -14,8 +13,8 @@ const Header = () => {
     return (
         <header className="header">
             <div className="header__inner">
-                <Link to="/" className="header__btn header__btn--home">
-                    <svg className="tabs__btn" viewBox="0 0 576 512">
+                <Link className="header__btn header__btn--home" to="/">
+                    <svg viewBox="0 0 576 512">
                         <path
                             d="M280.37 148.26L96 300.11V464a16 16 0 0 0 16 16l112.06-.29a16 16 0 0 0 15.92-16V368a16 16 0 0 1 16-16h64a16 16 0 0 1 16 16v95.64a16 16 0 0 0 16 16.05L464 480a16 16 0 0 0 16-16V300L295.67 148.26a12.19 12.19 0 0 0-15.3 0zM571.6 251.47L488 182.56V44.05a12 12 0 0 0-12-12h-56a12 12 0 0 0-12 12v72.61L318.47 43a48 48 0 0 0-61 0L4.34 251.47a12 12 0 0 0-1.6 16.9l25.5 31A12 12 0 0 0 45.15 301l235.22-193.74a12.19 12.19 0 0 1 15.3 0L530.9 301a12 12 0 0 0 16.9-1.6l25.5-31a12 12 0 0 0-1.7-16.93z">
                         </path>
@@ -23,21 +22,21 @@ const Header = () => {
                 </Link>
                 <label className="header__btn header__btn--burger" htmlFor="burger">
                     <div className={"burger__menu" + classAnimation} onClick={addAnimation}>
-                        <span className="menu__line half start"></span>
-                        <span className="menu__line"></span>
-                        <span className="menu__line half end"></span>
+                        <span className="menu__line half start" />
+                        <span className="menu__line" />
+                        <span className="menu__line half end" />
                     </div>
                 </label>
                 <input type="checkbox" id="burger" style={{ display: "none" }} />
                 <nav className="nav__inner">
                     <ul className="nav__links">
                         <li>
-                            <Link to="/resume" className="tabs__btn">
+                            <Link className="tabs__btn" to="/resume">
                                 <FormattedMessage id="summary" />
                             </Link>
                         </li>
                         <li>
-                            <Link to="/portfolio" className="tabs__btn">
+                            <Link className="tabs__btn" to="/portfolio">
                                 <FormattedMessage id="portfolio" />
                             </Link>
                         </li>

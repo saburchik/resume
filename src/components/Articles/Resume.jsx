@@ -1,4 +1,3 @@
-import React from 'react';
 import { FormattedMessage } from 'react-intl'
 import '../../App.css'
 
@@ -6,7 +5,7 @@ import '../../App.css'
 const Home = () => {
     return (
         <article className="tabs__content">
-            <h2 className="title lng-exp">
+            <h2 className="title">
                 <FormattedMessage id="experience" />
             </h2>
             <p className="suptitle">

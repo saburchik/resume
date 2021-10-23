@@ -297,7 +297,7 @@ button {
 }
 
 .tabs__btn:hover,
-.tabs__btn:active {
+.tabs__btn--active {
   color: #606060;
 }
 
@@ -442,7 +442,6 @@ input[type="checkbox"]:checked+.nav__inner {
   margin-top: 1rem;
 }
 
-
 .tabs__content {
   display: block;
   -webkit-animation-name: menu;
@@ -497,11 +496,13 @@ input[type="checkbox"]:checked+.nav__inner {
   -ms-flex-direction: column;
   flex-direction: column;
   width: 100%;
-  max-width: 356px;
+  max-width: 336px;
   min-width: 256px;
   padding-top: 1rem;
   margin: 1rem 0;
   border-radius: 11px 0;
+  border-top: 3px solid #fff;
+  border-bottom: 3px solid #fff;
   background-color: #2c2c2c;
   cursor: pointer;
   -webkit-transition: 0.3s;

@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 import { IntlProvider } from 'react-intl'
+
+// Languages
 import Russian from '../languages/russian.json'
 import English from '../languages/english.json'
 
