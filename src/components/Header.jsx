@@ -1,15 +1,15 @@
 import { Link } from 'react-router-dom'
-import React from 'react'
+import React, { useState } from 'react'
 import { FormattedMessage } from 'react-intl'
 
 import '../App.css'
 
 
 const Header = () => {
-    // const animationBurger = document.querySelector('.burger__menu');
-    // animationBurger.addEventListener('click', () => {
-    //     animationBurger.classList.toggle('open');
-    // })
+    const [classAnimation, setClassAnimation] = useState('')
+    const addAnimation = () => {
+        classAnimation ? setClassAnimation('') : setClassAnimation(' open') // Attention, space before ' 'open
+    }
 
     return (
         <header className="header">
@@ -22,7 +22,7 @@ const Header = () => {
                     </svg>
                 </Link>
                 <label className="header__btn header__btn--burger" htmlFor="burger">
-                    <div className="burger__menu">
+                    <div className={"burger__menu" + classAnimation} onClick={addAnimation}>
                         <span className="menu__line half start"></span>
                         <span className="menu__line"></span>
                         <span className="menu__line half end"></span>
