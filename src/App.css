@@ -254,6 +254,7 @@ button {
   box-shadow: 0 0 5px #393939;
   position: absolute;
   top: 0;
+  z-index: 9;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
@@ -321,10 +322,13 @@ button {
   transition: transform 330ms ease-out;
   transition: transform 330ms ease-out, -webkit-transform 330ms ease-out;
   padding: 0.75rem;
+
+  background: rgba(0, 0, 0, 0);
+  position: absolute;
+  z-index: 2;
 }
 
 .burger__menu.open {
-  background: rgba(0, 0, 0, 0);
   -webkit-transform: rotate(-45deg);
   -ms-transform: rotate(-45deg);
   transform: rotate(-45deg);
