@@ -1,11 +1,14 @@
 import React from 'react'
 import { FormattedMessage } from 'react-intl'
 import '../../App.css'
+import Projects from '../Projects'
+
 
 
 const Home = () => {
     return (
         <article className="tabs__content">
+            <div style={{ display: "none" }}><Projects /></div> {/* to upload images to the browser */}
             <h2 className="title">
                 <FormattedMessage id="aboutMe" />
             </h2>
