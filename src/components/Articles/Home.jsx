@@ -13,24 +13,13 @@ const Home = () => {
                 <FormattedMessage id="aboutMe" />
             </h2>
             <p className="suptitle">
-                Started earnest brother believe an exposed so. Me he believing daughters if
-                forfeited at furniture. Age again and stuff downs spoke. Late hour new nay able fat each
-                sell.
-                Nor themselves age introduced frequently use unsatiable devonshire get. They why quit gay
-                cold
-                rose deal park. One same they four did ask busy. Reserved opinions fat him nay position.
-                Breakfast as zealously incommode do agreeable furniture. One too nay led fanny allow plate.
+                — Со времён своей учебы в колледже, был интерес к вебу. Но на то время в открытом доступе самое толковое это были курсы Е.Попова. После которых у меня сформировалось убеждение, что веб-разработка это тяжело и на это нужно учится чуть-ли не в университете.
                 <br />
                 <br />
-                Quick six blind smart out burst. Perfectly on furniture dejection determine my depending an
-                to.
-                Add short water court fat. Her bachelor honoured perceive securing but desirous ham
-                required.
-                Questions deficient acuteness to engrossed as. Entirely led ten humoured greatest and
-                yourself.
-                Besides ye country on observe. She continue appetite endeavor she judgment interest the met.
-                For
-                she surrounded motionless fat resolution may.
+                Последние годы пытался поступить в европейский колледж на: IT System Development, по тем или иным причинам не получалось. А когда пошла волна Фронтенда и технологий, которые упрощают и автоматизируют веб-разработку. То, я решил постепенно самому осваивать материал, благодаря открытым источникам/документациям. Плюс, определенные знания английского позволяли мне некоторые вещи комбинировать во время обучение.
+                <br />
+                <br />
+                Рад, что за это время я научился - сам учится. Решать задачи и понимать некоторые фундаментальные вещи в вебе. Дальше возникает желание найти и присоединиться к команде, развиваться с командой в рамках конкретного проекта и приносить пользу своим коллегам и бизнесу.
             </p>
         </article>
     )

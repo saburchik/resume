@@ -1,7 +1,6 @@
 import React, { useContext } from 'react'
 import '../../App.css'
-import photoWEBp from './../../img/me.webp'
-import photoPNG from "./../../img/me.png"
+import me from "./../../img/me.jpg"
 import { FormattedMessage } from 'react-intl'
 import { Context } from '../Wrapper'
 
@@ -33,8 +32,7 @@ const Profile = () => {
                     </div>
                 </div>
                 <picture>
-                    <source srcSet={photoWEBp} type="image/webp" />
-                    <img className="profile__photo" src={photoPNG} alt="myphoto" />
+                    <img className="profile__photo" src={me} alt="myphoto" />
                 </picture>
                 <ul className="profile__info">
                     <li>
@@ -69,14 +67,6 @@ const Profile = () => {
                             <FormattedMessage id="location" />
                             <span style={{ color: "#393939" }}>
                                 <FormattedMessage id="myLocation" />
-                            </span>
-                        </h2>
-                    </li>
-                    <li>
-                        <h2 className="profile__item">
-                            <FormattedMessage id="status" />
-                            <span style={{ color: "#393939" }}>
-                                <FormattedMessage id="myStatus" />
                             </span>
                         </h2>
                     </li>

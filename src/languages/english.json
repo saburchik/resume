@@ -8,10 +8,9 @@
     "myAge": "24 years old",
     "location": "— Current location: ",
     "myLocation": "the city of Belovo, Siberia",
-    "status": "— Status: ",
     "myStatus": "In search of Job",
     "summary": "resume",
     "portfolio": "Portfolio",
     "aboutMe": "— About me:",
-    "experience": "— Education/Experience:"
+    "resume": "— Resume:"
 }

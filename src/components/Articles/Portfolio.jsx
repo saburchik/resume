@@ -12,7 +12,6 @@ const Portfolio = (props) => {
             <h2 className="title">
                 — <FormattedMessage id="portfolio" />:
             </h2>
-            <hr color="#393939" height="10px" />
             <div className="portfolio">
                 <Projects />
             </div>
