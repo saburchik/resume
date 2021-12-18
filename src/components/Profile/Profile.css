@@ -1,0 +1,103 @@
+.profile {
+    width: clamp(30%, 25vw, 35%);
+    min-width: 19rem;
+}
+
+.profile__inner {
+    background: linear-gradient(39deg, #a1a0a0 0%, #7d7d7d 51%, #424242 100%);
+    border: 0.18rem solid #cecece;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin: 0 auto 2rem;
+}
+
+.profile__header {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    border-bottom: 0.2rem solid #393939;
+}
+
+.profile__name {
+    display: flex;
+    flex-direction: column;
+    font-size: clamp(1.5rem, 1vw, 2rem);
+    text-transform: uppercase;
+    color: #393939;
+    margin-bottom: 1rem;
+}
+
+.profile__lang {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 0.5rem;
+    height: min-content;
+    margin-bottom: 1rem;
+}
+
+.profile__lang svg {
+    fill: #8c8c8c;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.profile__select {
+    display: flex;
+    align-items: center;
+    height: fit-content;
+    background: #393939;
+    border-radius: 0.5rem 0;
+    color: #cecece;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem 1rem 0.5rem 0.5rem;
+    margin-right: -1rem;
+    transition: 0.3s;
+}
+
+.profile__select:hover,
+.profile__select:focus-visible {
+    background: #2c2c2c;
+}
+
+.profile__photo {
+    display: flex;
+    justify-content: center;
+    object-fit: cover;
+    object-position: top;
+    width: 13rem;
+    height: 17rem;
+    border: 0.18rem solid #424242;
+    border-radius: 0.5rem;
+    margin: 1rem auto;
+}
+
+.profile__info {
+    border-top: 0.2rem solid #393939;
+    padding: 1rem 0 0 1rem;
+}
+
+.profile__item {
+    font-size: clamp(1rem, 1vw, 1.3rem);
+    font-weight: 400;
+    color: #cecece;
+    letter-spacing: 0.05rem;
+    line-height: 2rem;
+}
+
+.profile__item span {
+    color: #393939;
+}
+
+.profile__email {
+    width: fit-content;
+    color: #393939;
+    transition: 0.3s;
+}
+
+.profile__email:hover {
+    color: #2c2c2c;
+}

@@ -1,0 +1,140 @@
+.tabs__content {
+    display: block;
+    animation-name: menu;
+    animation-duration: 0.4s;
+    animation-fill-mode: both;
+}
+
+@keyframes menu {
+    0% {
+        transform: scale(0.8);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.title {
+    font-size: clamp(1.5rem, 1vw, 2rem);
+    font-weight: 700;
+    letter-spacing: 0.05rem;
+    border-bottom: 0.2rem solid #393939;
+    padding-bottom: 1rem;
+}
+
+.description {
+    font-size: clamp(1rem, 1vw, 1.3rem);
+    color: #cecece;
+    line-height: 1.5rem;
+    margin: 1rem 0;
+}
+
+.suptitle {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    color: #393939;
+    margin: 1rem 0;
+}
+
+.list__skills {
+    list-style: inside;
+    line-height: 1.5rem;
+    padding: 0 2rem;
+}
+
+.list__other {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+}
+
+.list__other li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.list__other svg {
+    width: 3rem;
+    height: 3rem;
+    fill: #606060;
+    margin-bottom: 0.5rem;
+}
+
+.portfolio__inner {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.portfolio__items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.portfolio__link {
+    display: flex;
+    flex-direction: column;
+    max-width: 21rem;
+    min-width: 16rem;
+    background: #2c2c2c;
+    border-radius: 0.7rem 0;
+    border-top: 0.2rem solid #fff;
+    border-bottom: 0.2rem solid #fff;
+    padding-top: 1rem;
+    transition: 0.3s;
+}
+
+.portfolio__link:hover {
+    transform: translateY(-0.5rem);
+}
+
+.portfolio__link:hover .portfolio__title {
+    color: #606060;
+}
+
+.portfolio__title {
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: 700;
+    letter-spacing: 0.05rem;
+    padding: 0.5rem 0.5rem 1rem;
+    margin: 0;
+}
+
+.portfolio__suptitle {
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 0.05rem;
+    margin: 0.5rem auto;
+}
+
+.portfolio__stack-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    border-bottom: 0.2rem solid #424242;
+    border-radius: 0.7rem;
+    padding: 0.5rem;
+}
+
+.portfolio__stack-item li {
+    background: #393939;
+    color: #a1a0a0;
+    border-radius: 0.3rem;
+    padding: 0.25rem;
+}

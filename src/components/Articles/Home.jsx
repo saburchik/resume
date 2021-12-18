@@ -1,25 +1,23 @@
+// == Base:
 import React from 'react'
 import { FormattedMessage } from 'react-intl'
-import '../../App.css'
-import Projects from '../Projects'
-
-
+// == Styles:
+import './Article.css'
 
 const Home = () => {
     return (
         <article className="tabs__content">
-            <div style={{ display: "none" }}><Projects /></div> {/* to upload images to the browser */}
             <h2 className="title">
                 <FormattedMessage id="aboutMe" />
             </h2>
-            <p className="suptitle">
-                — Со времён своей учебы в колледже, был интерес к вебу. Но на то время в открытом доступе самое толковое это были курсы Е.Попова. После которых у меня сформировалось убеждение, что веб-разработка это тяжело и на это нужно учится чуть-ли не в университете.
+            <p className="description">
+                <FormattedMessage id="description-first" />
                 <br />
                 <br />
-                Последние годы пытался поступить в европейский колледж на: IT System Development, по тем или иным причинам не получалось. А когда пошла волна Фронтенда и технологий, которые упрощают и автоматизируют веб-разработку. То, я решил постепенно самому осваивать материал, благодаря открытым источникам/документациям. Плюс, определенные знания английского позволяли мне некоторые вещи комбинировать во время обучение.
+                <FormattedMessage id="description-second" />
                 <br />
                 <br />
-                Рад, что за это время я научился - сам учится. Решать задачи и понимать некоторые фундаментальные вещи в вебе. Дальше возникает желание найти и присоединиться к команде, развиваться с командой в рамках конкретного проекта и приносить пользу своим коллегам и бизнесу.
+                <FormattedMessage id="description-third" />
             </p>
         </article>
     )
