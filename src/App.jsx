@@ -49,9 +49,7 @@ const App = () => {
               <Switch>
                 <Route exact path="/" component={Home} />
                 <Route exact path="/resume" component={Resume} />
-                <Route exact path="/portfolio" render={() => <Portfolio
-                  chelseaIMG={chelseaIMG} republicIMG={republicIMG}
-                />} />
+                <Route exact path="/portfolio" render={() => <Portfolio chelseaIMG={chelseaIMG} republicIMG={republicIMG} />} />
               </Switch>
             </main>
           </section>

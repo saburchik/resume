@@ -19,8 +19,8 @@ const Profile = () => {
                         <h1 className="profile__name">
                             <FormattedMessage id="myname" />
                         </h1>
-                        <p>
-                            <FormattedMessage id="job-position" />
+                        <p style={{ marginBottom: "1rem" }}>
+                            — <FormattedMessage id="jobPosition" />
                         </p>
                     </div>
                     <div className="profile__lang">
@@ -42,7 +42,7 @@ const Profile = () => {
                 <ul className="profile__info">
                     <li>
                         <h2 className="profile__item" >
-                            <FormattedMessage id="name" />
+                            — <FormattedMessage id="name" />
                             <span>
                                 <FormattedMessage id="myname" />
                             </span>
@@ -50,7 +50,7 @@ const Profile = () => {
                     </li>
                     <li>
                         <h2 className="profile__item">
-                            <FormattedMessage id="bithday" />
+                            — <FormattedMessage id="bithday" />
                             <span>
                                 <FormattedMessage id="myBithday" />
                             </span>
@@ -58,7 +58,7 @@ const Profile = () => {
                     </li>
                     <li>
                         <h2 className="profile__item">
-                            <FormattedMessage id="age" />
+                            — <FormattedMessage id="age" />
                             <span>
                                 <FormattedMessage id="myAge" />
                             </span>
@@ -71,7 +71,7 @@ const Profile = () => {
                     </li>
                     <li>
                         <h2 className="profile__item">
-                            <FormattedMessage id="location" />
+                            — <FormattedMessage id="location" />
                             <span>
                                 <FormattedMessage id="myLocation" />
                             </span>

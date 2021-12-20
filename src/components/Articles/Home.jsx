@@ -8,10 +8,10 @@ const Home = () => {
     return (
         <article className="tabs__content">
             <h2 className="title">
-                <FormattedMessage id="aboutMe" />
+                — <FormattedMessage id="aboutMe" />
             </h2>
             <p className="description">
-                <FormattedMessage id="description-first" />
+                — <FormattedMessage id="description-first" />
                 <br />
                 <br />
                 <FormattedMessage id="description-second" />

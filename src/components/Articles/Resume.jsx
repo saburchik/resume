@@ -7,22 +7,22 @@ const Home = () => {
     return (
         <article className="tabs__content">
             <h2 className="title">
-                <FormattedMessage id="resume" />
+                — <FormattedMessage id="resume" />
             </h2>
             <article style={{ marginBottom: '2rem' }}>
                 <h3 className="suptitle">
                     <FormattedMessage id="skills" />:
                 </h3>
                 <ul className="list__skills">
-                    <li>Кроссбраузерная верстка, с использованием методологии <strong>БЭМ</strong>(либо модульный CSS);</li>
-                    <li>Использование чистого <strong>CSS</strong>, либо препроцессора <strong>SASS</strong>;</li>
-                    <li>Адаптив и тестирование верстки в диапазоне от 320px до 2700px;</li>
+                    <li>Кроссбраузерная верстка, с использованием методологии БЭМ(либо модульный CSS/SCSS для React);</li>
+                    <li>Опыт использование чистого CSS, также препроцессора SCSS;</li>
+                    <li>Адаптивность и растягивание верстки в диапазоне от 320px до 2700px;</li>
                     <li>Опыт использование npm зависимостей;</li>
+                    <li>Имеется опыт использование системы контроля версии(Git);</li>
+                    <li>Владение базовым JS, способность написать простые скрипты;</li>
+                    <li>Опыт использование Gulp и Webpack, для автоматизации некоторых процессов;</li>
                     <li>Знание английского на уровне чтения;</li>
-                    <li>Имеется опыт использование системы контроля версии <strong>Git</strong>;</li>
-                    <li>Владение базовым <strong>JS</strong>, способность написать простые скрипты;</li>
-                    <li>Опыт использование <strong>Gulp</strong> и <strong> Webpack</strong>, для автоматизации некоторых процессов;</li>
-                    <li>Рабочие инструменты: <strong>VS Code</strong>, <strong>Figma</strong>.</li>
+                    <li>Владение графическим редактором Figma.</li>
                 </ul>
             </article>
 

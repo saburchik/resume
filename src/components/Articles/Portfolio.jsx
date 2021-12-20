@@ -13,7 +13,7 @@ const Portfolio = (props) => {
             <div className="portfolio">
                 <ul className="portfolio__inner">
                     <li className="portfolio__items">
-                        <a className="portfolio__link" href="https://saburchik.github.io/Chelsea-release/" rel="noreferrer" target="_blank">
+                        <a className="portfolio__link" href="https://saburchik.github.io/Chelsea" rel="noreferrer" target="_blank">
                             {props.chelseaIMG()}
                             <p className="portfolio__title">— Landing-Page FC Chelsea</p>
                         </a>

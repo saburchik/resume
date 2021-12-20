@@ -1,8 +1,7 @@
+// == Base:
 import React from 'react'
 import ReactDOM from 'react-dom'
-import './testWebP'
-
-// Component
+// == Component:
 import Wrapper from './components/Wrapper'
 import App from './App'
 
