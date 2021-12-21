@@ -57,11 +57,15 @@ button {
   border: none;
 }
 
-.portfolio__img {
-  width: 100%;
-  height: 100%;
+.images__inner {
   min-height: 170px;
   max-width: 350px;
+  background: #cecece;
+}
+
+.images__inner img {
+  width: 100%;
+  height: 100%;
 }
 
 .wrapper {

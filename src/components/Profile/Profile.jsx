@@ -40,42 +40,35 @@ const Profile = () => {
                     <img className="profile__photo" src={me} alt="myphoto" />
                 </picture>
                 <ul className="profile__info">
-                    <li>
-                        <h2 className="profile__item" >
-                            — <FormattedMessage id="name" />
-                            <span>
-                                <FormattedMessage id="myname" />
-                            </span>
-                        </h2>
+                    <li className="profile__item" >
+                        <FormattedMessage id="name" />
+                        <span>
+                            <FormattedMessage id="myname" />
+                        </span>
                     </li>
-                    <li>
-                        <h2 className="profile__item">
-                            — <FormattedMessage id="bithday" />
-                            <span>
-                                <FormattedMessage id="myBithday" />
-                            </span>
-                        </h2>
+                    <li className="profile__item">
+                        <FormattedMessage id="bithday" />
+                        <span>
+                            <FormattedMessage id="myBithday" />
+                        </span>
                     </li>
-                    <li>
-                        <h2 className="profile__item">
-                            — <FormattedMessage id="age" />
-                            <span>
-                                <FormattedMessage id="myAge" />
-                            </span>
-                        </h2>
+                    <li className="profile__item">
+                        <FormattedMessage id="age" />
+                        <span>
+                            <FormattedMessage id="myAge" />
+                        </span>
                     </li>
-                    <li>
-                        <h2 className="profile__item">— E-mail: <a className="profile__email" href="mailto:the.saburchik@gmail.com">
-                            the.saburchik@gmail.com</a>
-                        </h2>
+                    <li className="profile__item">
+                        E-mail:
+                        <a className="profile__email" href="mailto:the.saburchik@gmail.com">
+                            the.saburchik@gmail.com
+                        </a>
                     </li>
-                    <li>
-                        <h2 className="profile__item">
-                            — <FormattedMessage id="location" />
-                            <span>
-                                <FormattedMessage id="myLocation" />
-                            </span>
-                        </h2>
+                    <li className="profile__item">
+                        <FormattedMessage id="location" />
+                        <span>
+                            <FormattedMessage id="myLocation" />
+                        </span>
                     </li>
                 </ul>
             </div>

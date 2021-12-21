@@ -17,18 +17,18 @@ import chelseaImgWEBp from './img/chelsea.webp'
 
 function chelseaIMG() {
   return (
-    <picture>
+    <picture className="images__inner">
       <source srcSet={chelseaImgWEBp} type="image/webp" />
-      <img className="portfolio__img" src={chelseaImgJPG} alt="Изоб-ние проекта" />
+      <img src={chelseaImgJPG} alt="Изоб-ние проекта" />
     </picture>
   )
 }
 
 function republicIMG() {
   return (
-    <picture>
+    <picture className="images__inner">
       <source srcSet={republicImgWEBp} type="image/webp" />
-      <img className="portfolio__img" src={republicImgJPG} alt="Изоб-ние проекта" />
+      <img src={republicImgJPG} alt="Изоб-ние проекта" />
     </picture>
   )
 }
