@@ -6,20 +6,25 @@ import './Article.css'
 
 const Home = () => {
     return (
-        <article className="tabs__content">
+        <section className="tabs__content">
             <h2 className="title">
                 — <FormattedMessage id="aboutMe" />
             </h2>
-            <p className="description">
-                — <FormattedMessage id="description-first" />
-                <br />
-                <br />
-                <FormattedMessage id="description-second" />
-                <br />
-                <br />
-                <FormattedMessage id="description-third" />
-            </p>
-        </article>
+            <div >
+                <p className="description" style={{ textIndent: '1rem' }}>
+                    <FormattedMessage id="description-first" />
+                </p>
+                <p className="description" style={{ textIndent: '1rem' }}>
+                    <FormattedMessage id="description-second" />
+                </p>
+                <article>
+                    <h3 className="suptitle"><FormattedMessage id="qualities" /></h3>
+                    <p style={{ textIndent: '1rem' }}>
+                        <FormattedMessage id="description-qualities" />
+                    </p>
+                </article>
+            </div>
+        </section>
     )
 }
 

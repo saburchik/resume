@@ -6,7 +6,7 @@ import { Context } from '../Wrapper'
 import './Profile.css'
 // == Images:
 // import meWebp from "./../../img/me.webp"
-import me from './../../img/me.jpg'
+import me from './../../img/mes.jpg'
 
 const Profile = () => {
     const context = useContext(Context)
@@ -20,7 +20,7 @@ const Profile = () => {
                             <FormattedMessage id="myname" />
                         </h1>
                         <p style={{ marginBottom: "1rem" }}>
-                            — <FormattedMessage id="jobPosition" />
+                            <FormattedMessage id="jobPosition" />
                         </p>
                     </div>
                     <div className="profile__lang">
