@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/resume/static/css/main.b346eab0.chunk.css",
-    "main.js": "/resume/static/js/main.090272e8.chunk.js",
-    "main.js.map": "/resume/static/js/main.090272e8.chunk.js.map",
-    "runtime-main.js": "/resume/static/js/runtime-main.966cd769.js",
-    "runtime-main.js.map": "/resume/static/js/runtime-main.966cd769.js.map",
-    "static/js/2.cd2a185a.chunk.js": "/resume/static/js/2.cd2a185a.chunk.js",
-    "static/js/2.cd2a185a.chunk.js.map": "/resume/static/js/2.cd2a185a.chunk.js.map",
-    "index.html": "/resume/index.html",
-    "static/css/main.b346eab0.chunk.css.map": "/resume/static/css/main.b346eab0.chunk.css.map",
-    "static/js/2.cd2a185a.chunk.js.LICENSE.txt": "/resume/static/js/2.cd2a185a.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/resume/static/media/background.c142bd86.webp",
-    "static/media/chelsea.183c3879.webp": "/resume/static/media/chelsea.183c3879.webp",
-    "static/media/chelsea.c465d5f3.jpg": "/resume/static/media/chelsea.c465d5f3.jpg",
-    "static/media/me.7c808749.jpg": "/resume/static/media/me.7c808749.jpg",
-    "static/media/me.ca22b6f4.webp": "/resume/static/media/me.ca22b6f4.webp",
-    "static/media/republic.92e1ad96.webp": "/resume/static/media/republic.92e1ad96.webp",
-    "static/media/republic.eb8be4a5.jpg": "/resume/static/media/republic.eb8be4a5.jpg"
+    "main.css": "/static/css/main.eb996b4c.chunk.css",
+    "main.js": "/static/js/main.090272e8.chunk.js",
+    "main.js.map": "/static/js/main.090272e8.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.0b2b6b5d.js",
+    "runtime-main.js.map": "/static/js/runtime-main.0b2b6b5d.js.map",
+    "static/js/2.cd2a185a.chunk.js": "/static/js/2.cd2a185a.chunk.js",
+    "static/js/2.cd2a185a.chunk.js.map": "/static/js/2.cd2a185a.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.eb996b4c.chunk.css.map": "/static/css/main.eb996b4c.chunk.css.map",
+    "static/js/2.cd2a185a.chunk.js.LICENSE.txt": "/static/js/2.cd2a185a.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/static/media/background.c142bd86.webp",
+    "static/media/chelsea.183c3879.webp": "/static/media/chelsea.183c3879.webp",
+    "static/media/chelsea.c465d5f3.jpg": "/static/media/chelsea.c465d5f3.jpg",
+    "static/media/me.7c808749.jpg": "/static/media/me.7c808749.jpg",
+    "static/media/me.ca22b6f4.webp": "/static/media/me.ca22b6f4.webp",
+    "static/media/republic.92e1ad96.webp": "/static/media/republic.92e1ad96.webp",
+    "static/media/republic.eb8be4a5.jpg": "/static/media/republic.eb8be4a5.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.966cd769.js",
+    "static/js/runtime-main.0b2b6b5d.js",
     "static/js/2.cd2a185a.chunk.js",
-    "static/css/main.b346eab0.chunk.css",
+    "static/css/main.eb996b4c.chunk.css",
     "static/js/main.090272e8.chunk.js"
   ]
 }
