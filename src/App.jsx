@@ -8,7 +8,7 @@ import Profile from './components/Profile/Profile'
 import Header from './components/Main/Header'
 import DrawImages from './components/DrawImages'
 import Home from './components/Articles/Home'
-import Resume from './components/Articles/Resume'
+import Summary from './components/Articles/Summary'
 import Portfolio from './components/Articles/Portfolio'
 
 const App = () => {
@@ -25,7 +25,7 @@ const App = () => {
               </div>
               <Switch>
                 <Route exact path="/" component={Home} />
-                <Route exact path="/resume" component={Resume} />
+                <Route exact path="/summary" component={Summary} />
                 <Route exact path="/portfolio" component={Portfolio} />
               </Switch>
             </main>
