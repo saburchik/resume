@@ -15,8 +15,8 @@ const Portfolio = () => {
             <li className="portfolio__items">
                 <a className="portfolio__link" href="https://saburchik.github.io/Chelsea" rel="noreferrer" target="_blank">
                     <picture className="images__inner">
-                        <source srcSet={republic_webp} type="image/webp" />
-                        <img src={republic_jpg} alt="Изоб-ние проекта" />
+                        <source srcSet={chelsea_webp} type="image/webp" />
+                        <img src={chelsea_jpg} alt="Изоб-ние проекта" />
                     </picture>
                     <p className="portfolio__title">— Landing-Page FC Chelsea</p>
                     <ul className="portfolio__stack-item">
@@ -34,8 +34,8 @@ const Portfolio = () => {
             <li className="portfolio__items">
                 <a className="portfolio__link" href="https://republic-shop.herokuapp.com" rel="noreferrer" target="_blank">
                     <picture className="images__inner">
-                        <source srcSet={chelsea_webp} type="image/webp" />
-                        <img src={chelsea_jpg} alt="Изоб-ние проекта" />
+                        <source srcSet={republic_webp} type="image/webp" />
+                        <img src={republic_jpg} alt="Изоб-ние проекта" />
                     </picture>
                     <p className="portfolio__title">— Shopping Market | Republic</p>
                     <ul className="portfolio__stack-item" >

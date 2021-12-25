@@ -27,7 +27,8 @@
     z-index: 9;
 }
 
-.header__btn:hover {
+.header__btn:hover,
+.header__btn:focus {
     background: #2c2c2c;
 }
 
@@ -126,7 +127,7 @@ input[type="checkbox"]:checked+.nav__inner {
 }
 
 .tab__btn:hover,
-.tab__btn:focus-visible {
+.tab__btn:focus {
     color: #606060;
 }
 
