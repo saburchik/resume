@@ -1,7 +1,7 @@
 {
-  "name": "resume",
+  "name": "my-resume",
   "author": "Yury Saburov <the.saburchik@gmail.com>",
-  "homepage": "https://saburchik.github.io/",
+  "homepage": "https://saburchik.github.io/my-resume/",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
