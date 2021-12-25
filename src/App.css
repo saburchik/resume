@@ -60,7 +60,7 @@ button {
 .images__inner {
   min-height: 170px;
   max-width: 350px;
-  background: #cecece;
+  background: #a1a0a0;
 }
 
 .images__inner img {
@@ -99,6 +99,7 @@ button {
   padding: 2rem 1rem;
 }
 
+/* == Media: */
 @media (max-width: 890px) {
   .container {
     align-items: center;
@@ -118,6 +119,9 @@ button {
   }
 }
 
-.webp .wrapper {
-  background: url(./img/background.webp) center/cover no-repeat;
+/* == Supports: */
+@supports (background: url('./img/background.webp')) {
+  .wrapper {
+    background: url('./img/background.webp') center/cover no-repeat;
+  }
 }

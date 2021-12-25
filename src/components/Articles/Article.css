@@ -1,13 +1,12 @@
 .tabs__content {
-    display: block;
     animation-name: menu;
-    animation-duration: 0.4s;
+    animation-duration: 0.5s;
     animation-fill-mode: both;
 }
 
 @keyframes menu {
     0% {
-        transform: scale(0.8);
+        transform: scale(0.85);
     }
 
     100% {
@@ -17,22 +16,23 @@
 
 .title {
     font-size: clamp(1.5rem, 1vw, 2rem);
-    font-weight: 700;
-    letter-spacing: 0.05rem;
     border-bottom: 0.2rem solid #393939;
     padding-bottom: 1rem;
 }
 
 .description {
     font-size: clamp(1rem, 1vw, 1.3rem);
-    color: #cecece;
+    text-indent: 1rem;
     line-height: 1.5rem;
     margin: 1rem 0;
 }
 
+.description::first-letter {
+    font-size: clamp(1.3rem, 1vw, 1.5rem);
+}
+
 .suptitle {
-    font-size: 1.5rem;
-    font-weight: 700;
+    font-size: clamp(1.5rem, 1vw, 2rem);
     text-align: center;
     color: #393939;
     margin: 1rem 0;
@@ -49,21 +49,19 @@
 
 .list__skills li::before {
     content: "\2014";
-    font-weight: 700;
+    margin: 0 0.5rem;
     position: absolute;
     left: 0;
-    margin: 0 0.5rem;
 }
 
-.list__other {
+.list__interest {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-items: center;
     gap: 1rem;
 }
 
-.list__other li {
+.list__interest li {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -72,7 +70,7 @@
     text-transform: uppercase;
 }
 
-.list__other svg {
+.list__interest li svg {
     width: 3rem;
     height: 3rem;
     fill: #606060;
@@ -81,59 +79,51 @@
 
 .portfolio__inner {
     display: flex;
-    gap: 1rem;
     flex-wrap: wrap;
-    -ms-flex-pack: distribute;
     justify-content: space-around;
+    gap: 1rem;
     width: 100%;
 }
 
 .portfolio__items {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 1rem;
-    position: relative;
+    margin-top: 1.5rem;
+    perspective: 50rem;
 }
 
 .portfolio__link {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    overflow: hidden;
     max-width: 21rem;
     min-width: 16rem;
     background: #2c2c2c;
     border-radius: 0.7rem 0;
     padding-top: 1rem;
-    transition: 0.3s;
+    transition: 0.5s;
     position: relative;
-    overflow: hidden;
 }
 
 .portfolio__link:hover {
-    transform: translateY(-0.5rem);
+    transform: rotateY(11deg);
 }
 
 .portfolio__link:hover .portfolio__title {
     color: #606060;
 }
 
+.portfolio__link:hover .portfolio__stack-item {
+    opacity: 1;
+    visibility: visible;
+    left: 0;
+}
+
 .portfolio__title {
     font-size: 1rem;
     font-style: italic;
     font-weight: 700;
-    letter-spacing: 0.05rem;
     padding: 0.5rem 0.5rem 1rem;
-    margin: 0;
-}
-
-.portfolio__suptitle {
-    width: 100%;
-    font-size: 1rem;
-    font-weight: 700;
-    text-align: center;
-    letter-spacing: 0.05rem;
-    margin: 0 auto;
 }
 
 .portfolio__stack-item {
@@ -154,15 +144,21 @@
     left: 100%;
 }
 
-.portfolio__link:hover .portfolio__stack-item {
-    opacity: 1;
-    visibility: visible;
-    left: 0;
-}
-
 .portfolio__stack-item li {
     background: #393939;
-    color: #a1a0a0;
+    color: #cecece;
     border-radius: 0.3rem;
     padding: 0.25rem;
+}
+
+.portfolio__suptitle {
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: center;
+    background: transparent !important;
+}
+
+.portfolio__suptitle h4 {
+    color: #fff;
 }

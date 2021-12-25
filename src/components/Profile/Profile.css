@@ -27,6 +27,13 @@
     margin-bottom: 1rem;
 }
 
+.profile__position {
+    font-size: clamp(0.8rem, 0.8vw, 1rem);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+}
+
 .profile__lang {
     display: flex;
     flex-direction: column;

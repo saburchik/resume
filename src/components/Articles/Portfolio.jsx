@@ -8,14 +8,14 @@ import DrawImages from '../DrawImages'
 
 const Portfolio = () => {
     return (
-        <div className="tabs__content">
+        <section className="tabs__content">
             <h2 className="title">
                 — <FormattedMessage id="portfolio" />:
             </h2>
             <div className="portfolio">
                 <DrawImages />
             </div>
-        </div>
+        </section>
     )
 }
 

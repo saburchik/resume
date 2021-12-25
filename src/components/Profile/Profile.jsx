@@ -5,8 +5,8 @@ import { Context } from '../Wrapper'
 // == Styles:
 import './Profile.css'
 // == Images:
-// import meWebp from "./../../img/me.webp"
-import me from './../../img/mes.jpg'
+import me_webp from "./../../img/me.webp"
+import me from './../../img/me.jpg'
 
 const Profile = () => {
     const context = useContext(Context)
@@ -17,10 +17,10 @@ const Profile = () => {
                 <section className="profile__header">
                     <div>
                         <h1 className="profile__name">
-                            <FormattedMessage id="myname" />
+                            <FormattedMessage id="my-name" />
                         </h1>
-                        <p style={{ marginBottom: "1rem" }}>
-                            <FormattedMessage id="jobPosition" />
+                        <p className="profile__position" style={{ marginBottom: "1rem" }}>
+                            <FormattedMessage id="my-position" />
                         </p>
                     </div>
                     <div className="profile__lang">
@@ -36,26 +36,26 @@ const Profile = () => {
                     </div>
                 </section>
                 <picture>
-                    <source srcSet={me} type="image/webp" />
+                    <source srcSet={me_webp} type="image/webp" />
                     <img className="profile__photo" src={me} alt="myphoto" />
                 </picture>
                 <ul className="profile__info">
                     <li className="profile__item" >
                         <FormattedMessage id="name" />
                         <span>
-                            <FormattedMessage id="myname" />
+                            <FormattedMessage id="my-name" />
                         </span>
                     </li>
                     <li className="profile__item">
                         <FormattedMessage id="bithday" />
                         <span>
-                            <FormattedMessage id="myBithday" />
+                            <FormattedMessage id="my-bithday" />
                         </span>
                     </li>
                     <li className="profile__item">
                         <FormattedMessage id="age" />
                         <span>
-                            <FormattedMessage id="myAge" />
+                            <FormattedMessage id="my-age" />
                         </span>
                     </li>
                     <li className="profile__item">
@@ -67,7 +67,7 @@ const Profile = () => {
                     <li className="profile__item">
                         <FormattedMessage id="location" />
                         <span>
-                            <FormattedMessage id="myLocation" />
+                            <FormattedMessage id="my-location" />
                         </span>
                     </li>
                 </ul>

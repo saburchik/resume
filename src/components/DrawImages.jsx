@@ -4,10 +4,10 @@ import { FormattedMessage } from 'react-intl'
 // == Styles:
 import './Articles/Article.css'
 // == Images:
-import republicImgJPG from '../img/republic.jpg'
-import republicImgWEBp from '../img/republic.webp'
-import chelseaImgJPG from '../img/chelsea.jpg'
-import chelseaImgWEBp from '../img/chelsea.webp'
+import republic_jpg from '../img/republic.jpg'
+import republic_webp from '../img/republic.webp'
+import chelsea_jpg from '../img/chelsea.jpg'
+import chelsea_webp from '../img/chelsea.webp'
 
 const Portfolio = () => {
     return (
@@ -15,14 +15,14 @@ const Portfolio = () => {
             <li className="portfolio__items">
                 <a className="portfolio__link" href="https://saburchik.github.io/Chelsea" rel="noreferrer" target="_blank">
                     <picture className="images__inner">
-                        <source srcSet={chelseaImgWEBp} type="image/webp" />
-                        <img src={chelseaImgJPG} alt="Изоб-ние проекта" />
+                        <source srcSet={republic_webp} type="image/webp" />
+                        <img src={republic_jpg} alt="Изоб-ние проекта" />
                     </picture>
                     <p className="portfolio__title">— Landing-Page FC Chelsea</p>
                     <ul className="portfolio__stack-item">
-                        <h4 className="portfolio__suptitle">
-                            <FormattedMessage id="stack" />:
-                        </h4>
+                        <li className="portfolio__suptitle">
+                            <p><FormattedMessage id="stack" />:</p>
+                        </li>
                         <li>HTML</li>
                         <li>SCSS</li>
                         <li>JS</li>
@@ -34,14 +34,14 @@ const Portfolio = () => {
             <li className="portfolio__items">
                 <a className="portfolio__link" href="https://republic-three.herokuapp.com/" rel="noreferrer" target="_blank">
                     <picture className="images__inner">
-                        <source srcSet={republicImgWEBp} type="image/webp" />
-                        <img src={republicImgJPG} alt="Изоб-ние проекта" />
+                        <source srcSet={chelsea_webp} type="image/webp" />
+                        <img src={chelsea_jpg} alt="Изоб-ние проекта" />
                     </picture>
                     <p className="portfolio__title">— Shopping Market | Republic</p>
                     <ul className="portfolio__stack-item" >
-                        <h4 className="portfolio__suptitle">
-                            <FormattedMessage id="stack" />:
-                        </h4>
+                        <li className="portfolio__suptitle">
+                            <p><FormattedMessage id="stack" />:</p>
+                        </li>
                         <li>HTML</li>
                         <li>SCSS</li>
                         <li>React.js</li>

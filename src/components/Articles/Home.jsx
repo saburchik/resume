@@ -8,18 +8,20 @@ const Home = () => {
     return (
         <section className="tabs__content">
             <h2 className="title">
-                — <FormattedMessage id="aboutMe" />
+                — <FormattedMessage id="about" />
             </h2>
             <div >
-                <p className="description" style={{ textIndent: '1rem' }}>
+                <p className="description">
                     <FormattedMessage id="description-first" />
                 </p>
-                <p className="description" style={{ textIndent: '1rem' }}>
+                <p className="description">
                     <FormattedMessage id="description-second" />
                 </p>
                 <article>
-                    <h3 className="suptitle"><FormattedMessage id="qualities" /></h3>
-                    <p style={{ textIndent: '1rem' }}>
+                    <h3 className="suptitle">
+                        <FormattedMessage id="qualities" />
+                    </h3>
+                    <p className="description">
                         <FormattedMessage id="description-qualities" />
                     </p>
                 </article>
