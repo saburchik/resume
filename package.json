@@ -1,7 +1,7 @@
 {
-  "name": "resume-on-react",
+  "name": "resume",
   "author": "Yury Saburov <the.saburchik@gmail.com>",
-  "homepage": "https://Saburchik.github.io/resume",
+  "homepage": "https://saburchik.github.io/",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
