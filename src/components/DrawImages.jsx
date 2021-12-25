@@ -32,7 +32,7 @@ const Portfolio = () => {
                 </a>
             </li>
             <li className="portfolio__items">
-                <a className="portfolio__link" href="https://republic-three.herokuapp.com/" rel="noreferrer" target="_blank">
+                <a className="portfolio__link" href="https://republic-shop.herokuapp.com" rel="noreferrer" target="_blank">
                     <picture className="images__inner">
                         <source srcSet={chelsea_webp} type="image/webp" />
                         <img src={chelsea_jpg} alt="Изоб-ние проекта" />
