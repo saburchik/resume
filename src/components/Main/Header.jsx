@@ -32,7 +32,7 @@ const Header = () => {
                 <nav className="nav__inner">
                     <ul className="nav__tabs">
                         <li>
-                            <Link className="tab__btn" to="/summary">
+                            <Link className="tab__btn" to="/resume">
                                 <FormattedMessage id="resume" />
                             </Link>
                         </li>
