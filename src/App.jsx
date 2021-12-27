@@ -1,6 +1,7 @@
 // == Base:
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+import PropagateLoader from 'react-spinners/PropagateLoader'
 // == Styles:
 import './App.css'
 // == Components:
@@ -12,26 +13,42 @@ import Resume from './components/Articles/Resume'
 import Portfolio from './components/Articles/Portfolio'
 
 const App = () => {
+  const [loading, setLoading] = useState(false)
+
+  useEffect(() => {
+    setLoading(true)
+    setTimeout(() => {
+      setLoading(false)
+    }, 500)
+  }, [])
+
   return (
     <Router>
-      <div className="wrapper">
-        <div className="container" id="tabs">
-          <Profile />
-          <section className="information">
-            <Header />
-            <main className="main">
-              <div style={{ display: "none" }}>
-                <DrawImages />
-              </div>
-              <Switch>
-                <Route exact path="/" component={Home} />
-                <Route exact path="/resume" component={Resume} />
-                <Route exact path="/portfolio" component={Portfolio} />
-              </Switch>
-            </main>
-          </section>
-        </div>
-      </div>
+      {
+        loading ?
+          <div className="loadingpage">
+            <PropagateLoader color={'#fff'} loading={loading} size={15} />
+          </div>
+          :
+          <div className="wrapper">
+            <div className="container" id="tabs">
+              <Profile />
+              <section className="information">
+                <Header />
+                <main className="main">
+                  <div style={{ display: "none" }}>
+                    <DrawImages />
+                  </div>
+                  <Switch>
+                    <Route exact path="/" component={Home} />
+                    <Route exact path="/resume" component={Resume} />
+                    <Route exact path="/portfolio" component={Portfolio} />
+                  </Switch>
+                </main>
+              </section>
+            </div>
+          </div>
+      }
     </Router>
   )
 }
