@@ -88,6 +88,7 @@
 .portfolio__items {
     display: flex;
     margin-top: 1.5rem;
+    -webkit-perspective: 50rem;
     perspective: 50rem;
 }
 
@@ -106,6 +107,7 @@
 }
 
 .portfolio__link:hover {
+    -webkit-transform: rotateY(11deg);
     transform: rotateY(11deg);
 }
 

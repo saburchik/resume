@@ -151,7 +151,7 @@ input[type="checkbox"]:checked+.nav__inner {
     fill: #cecece !important;
 }
 
-@media (max-width: 690px) {
+@media (max-width: 890px) {
     .burger__btn {
         display: flex;
     }
@@ -183,7 +183,7 @@ input[type="checkbox"]:checked+.nav__inner {
     }
 }
 
-@media (min-width: 690px) {
+@media (min-width: 890px) {
     input[type="checkbox"]:checked+.nav__inner {
         display: flex;
         height: 3.125rem;

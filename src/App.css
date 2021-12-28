@@ -68,6 +68,8 @@ button {
 .images__inner img {
   width: 100%;
   height: 100%;
+  opacity: 1;
+  transition: all 0.5s ease-in;
 }
 
 .wrapper {
@@ -95,6 +97,7 @@ button {
 
 .main {
   width: 100%;
+  height: 100%;
   background: linear-gradient(39deg, #a1a0a0 0%, #7d7d7d 51%, #424242 100%);
   border-radius: 0 0 11px 11px;
   border: 3px solid #cecece;
@@ -102,7 +105,7 @@ button {
 }
 
 /* == Media: */
-@media (max-width: 890px) {
+@media (max-width: 690px) {
   .container {
     align-items: center;
     flex-direction: column;

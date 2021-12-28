@@ -8,7 +8,6 @@
     border: 0.18rem solid #cecece;
     border-radius: 0.5rem;
     padding: 1rem;
-    margin: 0 auto 2rem;
 }
 
 .profile__header {
@@ -117,8 +116,8 @@
     color: #2c2c2c;
 }
 
-@media (max-width: 390px) {
+@media (max-width: 490px) {
     .profile {
-        width: 100%;
+        width: clamp(70%, 90vw, 100%);
     }
 }

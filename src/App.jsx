@@ -7,7 +7,6 @@ import './App.css'
 // == Components:
 import Profile from './components/Profile/Profile'
 import Header from './components/Main/Header'
-import DrawImages from './components/DrawImages'
 import Home from './components/Articles/Home'
 import Resume from './components/Articles/Resume'
 import Portfolio from './components/Articles/Portfolio'
@@ -36,9 +35,6 @@ const App = () => {
               <section className="information">
                 <Header />
                 <main className="main">
-                  <div style={{ display: "none" }}>
-                    <DrawImages />
-                  </div>
                   <Switch>
                     <Route exact path="/" component={Home} />
                     <Route exact path="/resume" component={Resume} />
