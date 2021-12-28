@@ -42,9 +42,9 @@
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
+    font-size: clamp(1rem, 1vw, 1.3rem);
     letter-spacing: 1px;
     padding-left: 2rem;
-
 }
 
 .list__skills li::before {
@@ -65,9 +65,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 0.75rem;
+    font-size: clamp(0.7rem, 0.7vw, 1rem);
     font-weight: 700;
     text-transform: uppercase;
+    letter-spacing: 0.1rem;
 }
 
 .list__interest li svg {
@@ -101,6 +102,7 @@
     min-width: 16rem;
     background: #2c2c2c;
     border-radius: 0.7rem 0;
+    border: 0.2rem solid #fff;
     padding-top: 1rem;
     transition: 0.5s;
     position: relative;
