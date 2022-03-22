@@ -69,15 +69,10 @@
     background: #2c2c2c;
 }
 
-.profile__photo {
+.profile__img {
     display: flex;
     justify-content: center;
-    object-fit: cover;
-    object-position: top;
-    width: 13rem;
-    height: 17rem;
-    border: 0.18rem solid #424242;
-    border-radius: 0.5rem;
+    width: 100%;
     margin: 1rem auto;
 }
 
