@@ -26,7 +26,9 @@ const Resume = () => {
                             <li><FormattedMessage id="li-skill-five" />;</li>
                             <li><FormattedMessage id="li-skill-six" />;</li>
                             <li><FormattedMessage id="li-skill-seven" />;</li>
-                            <li><FormattedMessage id="li-skill-eight" />.</li>
+                            <li><FormattedMessage id="li-skill-eight" />;</li>
+                            <li><FormattedMessage id="li-skill-nine" />;</li>
+                            <li><FormattedMessage id="li-skill-ten" />.</li>
                         </ul>
                     </article>
                     <article>
