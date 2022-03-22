@@ -126,8 +126,7 @@ input[type="checkbox"]:checked+.nav__inner {
     transition: 0.3s;
 }
 
-.tab__btn:hover,
-.tab__btn:focus {
+.tab__btn:hover {
     color: #606060;
 }
 
