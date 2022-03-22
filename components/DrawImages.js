@@ -9,7 +9,7 @@ const Portfolio = () => {
     return (
         <ul className="portfolio__inner">
             <li className="portfolio__items">
-                <a className="portfolio__link" href="https://saburchik-helmda.herokuapp.com" rel="noreferrer" target="_blank">
+                <a className="portfolio__link" href="https://helmda-update.herokuapp.com" rel="noreferrer" target="_blank">
                     <div className="images__inner">
                         <Image className={s.myproject} src="/img/helmda.jpg" width={288} height={200} alt="Изоб-ние проекта" />
                     </div>
