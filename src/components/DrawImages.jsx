@@ -8,10 +8,30 @@ import republic_jpg from '../img/republic.jpg'
 import republic_webp from '../img/republic.webp'
 import chelsea_jpg from '../img/chelsea.jpg'
 import chelsea_webp from '../img/chelsea.webp'
+import helmda_jpg from '../img/helmda.jpg'
+import helmda_webp from '../img/helmda.jpg'
 
 const Portfolio = () => {
     return (
         <ul className="portfolio__inner">
+            <li className="portfolio__items">
+                <a className="portfolio__link" href="https://saburchik-helmda.herokuapp.com/" rel="noreferrer" target="_blank">
+                    <picture className="images__inner">
+                        <source srcSet={helmda_webp} type="image/webp" />
+                        <img src={helmda_jpg} alt="Изоб-ние проекта" />
+                    </picture>
+                    <p className="portfolio__title">— Web-application | HelmDA</p>
+                    <ul className="portfolio__stack-item">
+                        <li className="portfolio__suptitle">
+                            <p><FormattedMessage id="stack" />:</p>
+                        </li>
+                        <li>HTML</li>
+                        <li>SCSS</li>
+                        <li>React.js</li>
+                        <li>Webpack</li>
+                    </ul>
+                </a>
+            </li>
             <li className="portfolio__items">
                 <a className="portfolio__link" href="https://saburchik.github.io/Chelsea" rel="noreferrer" target="_blank">
                     <picture className="images__inner">
