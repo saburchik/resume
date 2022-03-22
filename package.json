@@ -1,37 +1,30 @@
 {
   "name": "resume",
   "author": "Yury Saburov <the.saburchik@gmail.com>",
-  "homepage": "https://saburchik.github.io/resume",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
-    "browser-env": "^3.3.0",
-    "next": "^12.1.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-intl": "^5.20.13",
+    "react-router-dom": "^5.3.0",
+    "react-scripts": "4.0.3",
     "react-spinners": "^0.11.0"
   },
   "scripts": {
-    "start": "next start -p $PORT",
-    "build": "next build",
-    "dev": "next dev",
-    "heroku-postbuild": "npm run build"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
       "react-app",
       "react-app/jest"
     ]
-  },
-  "plugins": [
-    "formatjs"
-  ],
-  "rules": {
-    "formatjs/no-offset": "error"
   },
   "browserslist": {
     "production": [
@@ -46,8 +39,6 @@
     ]
   },
   "devDependencies": {
-    "eslint": "^8.11.0",
-    "eslint-plugin-formatjs": "^3.0.0",
     "gh-pages": "^3.2.3"
   }
 }
