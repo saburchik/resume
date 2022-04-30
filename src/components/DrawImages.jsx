@@ -33,7 +33,7 @@ const Portfolio = () => {
                 </a>
             </li>
             <li className="portfolio__items">
-                <a className="portfolio__link" href="https://saburchik.github.io/Chelsea" rel="noreferrer" target="_blank">
+                <a className="portfolio__link" href="https://saburchik.github.io/landing-page-chelsea" rel="noreferrer" target="_blank">
                     <picture className="images__inner">
                         <source srcSet={chelsea_webp} type="image/webp" />
                         <img src={chelsea_jpg} alt="Изоб-ние проекта" />
