@@ -43,13 +43,6 @@ body {
   color: #cecece;
 }
 
-.loadingpage {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-
 ul {
   list-style: none;
 }
