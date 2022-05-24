@@ -2,12 +2,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 // == Component:
-import Wrapper from './components/Wrapper'
+import LangProvider from './components/LangProvider'
 import App from './App'
 
 ReactDOM.render(
-  <Wrapper>
+  <LangProvider>
     <App />
-  </Wrapper>,
+  </LangProvider>,
   document.getElementById('root')
 )
